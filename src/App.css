@@ -1,0 +1,93 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+  width: 80px;
+  background: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MS40IDU4LjkiPjxwYXRoIGZpbGw9IiNEMkI1M0MiIGQ9Ik0xNyAxNC43TDguNSA5LjggMCAxNC43djkuOGw4LjUgNSA4LjUtNXoiLz48cGF0aCBmaWxsPSIjRjFERTQ0IiBkPSJNMTcgMTQuN2wtOC41IDQuOXY5LjlsOC41LTV6Ii8+PHBhdGggZmlsbD0iIzRGQTdCOCIgZD0iTTQyLjUgOS44bC0xNyA5Ljh2OS45bDguNSA0LjkgMTctOS45di05Ljh6Ii8+PHBhdGggZmlsbD0iIzY1Q0NFQiIgZD0iTTUxIDE0LjdsLTE3IDkuOHY5LjlsMTctOS45eiIvPjxwYXRoIGZpbGw9IiNENTgwNDAiIGQ9Ik0zNCAyNC41bC04LjUgNXY5LjhsMTcgOS44IDguNS00Ljl2LTkuOHoiLz48cGF0aCBmaWxsPSIjRjk5RjQ3IiBkPSJNNTEgMzQuNGwtOC41IDQuOXY5LjhsOC41LTQuOXoiLz48Zz48cGF0aCBmaWxsPSIjQjQ4IiBkPSJNMzQgNC45TDI1LjUgMCAxNyA0Ljl2MjQuNmw4LjUgNC45IDguNS00LjlWNC45Ii8+PHBhdGggZmlsbD0iI0UwNTI5MiIgZD0iTTM0IDI5LjVWNC45bC04LjUgNC45djI0LjZ6Ii8+PC9nPjxnPjxwYXRoIGZpbGw9IiM2MUEwNEIiIGQ9Ik0xNyA0NC4yVjU0bDguNSA0LjlMMzQgNTRWMjQuNWwtOC41LTQuOUwwIDM0LjR2OS44bDguNSA0LjkiLz48cGF0aCBmaWxsPSIjNzdDMjYyIiBkPSJNMzQgMjQuNUw4LjUgMzkuM3Y5LjhsMTctOS44djE5LjZMMzQgNTR6Ii8+PC9nPjwvc3ZnPg==);
+
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+.disabled{
+  pointer-events: none;
+}
+
+.done{
+  color:green;
+  padding:30px;
+
+
+}
+ul>li{
+  width:33%;
+}
+.container{
+  padding-left: 0;
+  padding-right: 0;
+  border: 1px solid;
+}
+
+.user-form>div{
+  width:70%;
+  margin:auto;
+  text-align: left;
+}
+
+.error{
+  color: red;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.user-form>div>div>input{
+  width:70%;
+}
+.user-form>div>label{
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.btn-primary{
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.privacy-form{
+  margin-top: 20px;
+}
+
+.privacy-form>div{
+  width:70%;
+  margin:auto;
+  text-align: left;
+}
+
+.privacy-form>div>label{
+  padding-left: 10px;
+}
+
+.done>.glyphicon{
+  font-size: 24px;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
