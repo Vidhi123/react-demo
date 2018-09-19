@@ -2,7 +2,7 @@
   "name": "react-demo",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://Vidhi123.github.io",
+  "homepage": "https://Vidhi123.github.io/react-demo/",
   "dependencies": {
     "bootstrap": "^3.3.7",
     "react": "^16.5.2",
