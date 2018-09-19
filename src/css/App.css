@@ -87,6 +87,14 @@ ul>li{
   font-size: 24px;
 }
 
+.text-brown{
+    color: brown;
+}
+
+.nav-tabs>.active>a{
+  background-color: paleturquoise !important;
+}
+
 @keyframes App-logo-spin {
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }

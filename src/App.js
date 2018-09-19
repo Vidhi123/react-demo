@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
-import './App.css';
+import './css/App.css';
 import UserForm from "./user-form.jsx";
 import Privacy from "./privacy";
 import Done from "./done";

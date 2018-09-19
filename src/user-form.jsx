@@ -1,8 +1,4 @@
-/*
-* author: richard.sproson.
-* date: 30.08.2017.
-* file: checkbox-field.jsx.
-*/
+
 
 import React from 'react';
 
@@ -42,7 +38,7 @@ export default class UserForm extends React.Component {
             this.setState({error:"Invalid Email Address"});
             return false;
         }else if(!this.validateIfPresent(this.state.user.password) || !passwordRegex.test(this.state.user.password)){
-            this.setState({error:"Password must be at least 8 characters, consisting of: lowercase; uppercase; number."});
+            this.setState({error:"Password must be at least 9 characters, consisting of: lowercase; uppercase; number."});
             return false;
         }else{
             this.setState({error:false});
@@ -64,7 +60,7 @@ export default class UserForm extends React.Component {
         return (
             <form className={"user-form"}>
                 <div className="">
-                    <label htmlFor={this.props.name} className="light">Name</label>
+                    <label htmlFor={this.props.name} className="light">Name <span className={"text-brown"}>*</span></label>
                     <div>
                         <input
                             type="text"
@@ -89,7 +85,7 @@ export default class UserForm extends React.Component {
                     </div>
                 </div>
                 <div className="">
-                    <label htmlFor={this.props.name} className="light">Email</label>
+                    <label htmlFor={this.props.name} className="light">Email&nbsp;<span className={"text-brown"}>*</span></label>
                     <div>
                         <input
                             type="text"
@@ -102,7 +98,7 @@ export default class UserForm extends React.Component {
                     </div>
                 </div>
                 <div className="">
-                    <label htmlFor={this.props.name} className="light">Password</label>
+                    <label htmlFor={this.props.name} className="light">Password&nbsp;<span className={"text-brown"}>*</span></label>
                     <div>
                         <input
                             type="password"
